@@ -18,3 +18,4 @@ A collection of large Prolog databases for testing Prolog implementations
 ## Datasets
 
 - `schema_org.pl` -- dataset organized in schema.org format with `item_type_/2` and `item_prop_val_/3` predicates, based on [MuSiQue](https://github.com/stonybrooknlp/musique) dataset
+- `stop_times.pl`, `trips.pl` -- dataset based on public transport in Vancouver: <https://www.translink.ca/about-us/doing-business-with-translink/app-developer-resources/gtfs/gtfs-data>

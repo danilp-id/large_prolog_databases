@@ -15,7 +15,7 @@ def snake2camel(s):
 def encode(v):
     if type(v) is str:
         # check if it's a timestamp
-        ts = re.findall(r"^\s*(\d?\d):(\d\d):(\d\d)\s*$", " 5:04:00")
+        ts = re.findall(r"^\s*(\d?\d):(\d\d):(\d\d)\s*$", v)
         if ts:
             (h,m,s) = ts[0]
             return str(int(s) + 60*int(m) + 60*60*int(h))
