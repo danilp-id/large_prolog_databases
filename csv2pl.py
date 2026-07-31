@@ -20,7 +20,8 @@ def encode(v):
             (h,m,s) = ts[0]
             return str(int(s) + 60*int(m) + 60*60*int(h))
 
-        return f'"{v}"'
+        #return f'"{v}"'
+        return f"'{v.replace("'", "\\'")}'" # using atoms
     if type(v) is int or float:
         return str(v)
 
