@@ -1,0 +1,9 @@
+stop_times.pl filter=lfs diff=lfs merge=lfs -text
+trips.pl filter=lfs diff=lfs merge=lfs -text
+stops.pl filter=lfs diff=lfs merge=lfs -text
+stops_atoms.pl filter=lfs diff=lfs merge=lfs -text
+stop_times_atoms.pl filter=lfs diff=lfs merge=lfs -text
+random_atoms.pl filter=lfs diff=lfs merge=lfs -text
+random_ints.pl filter=lfs diff=lfs merge=lfs -text
+random_strs.pl filter=lfs diff=lfs merge=lfs -text
+random_num_strs.pl filter=lfs diff=lfs merge=lfs -text
